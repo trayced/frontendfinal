@@ -1,0 +1,47 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+    background-image: url("../img/destaque.jpeg");
+    padding-top: 32px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #030101;
+}
+
+.header {
+    text-align: center;
+   /* display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;*/
+}
+
+.mainmenu {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+	padding: 25px;
+    margin: 10px;
+    border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+    background: rgba(183, 168, 248, 0.452);    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+nav li:hover {
+    background: rgb(14, 48, 243);
+}
+
+@media screen and (max-width: 480px) {
+}
