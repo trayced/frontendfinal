@@ -9,14 +9,16 @@ body {
 
 .header {
     text-align: center;
+    margin: 0 2px 32px 0;
    /* display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;*/
 }
 
-.mainmenu {
+.mainmenu .menuitem {
     text-align: center;
+    margin: 0 2px 32px 0;
 }
 
 nav li {
@@ -32,16 +34,90 @@ nav li {
     background: rgba(183, 168, 248, 0.452);    
 }
 
-a {
+.menuli {
     color: white;
     text-decoration: none;
     text-align: center;
 }
 
-
 nav li:hover {
     background: rgb(14, 48, 243);
 }
 
-@media screen and (max-width: 480px) {
+.text {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: #ffff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    text-transform: uppercase;
+    padding: 30px 0 50px 0;
+}
+
+.button {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+	padding: 20px;
+    margin: 10px;
+    background: #244980;
+    border: none;
+	border-radius: 5px;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+.panel-about {
+    background: #ffffff;
+    margin-top: 20px;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.titulo {
+    font-weight: bold;
+    color:black;
+    font-size: 1.5em;
+    margin: 0 5px 5px 0;
+}
+
+.subtitulo {
+    font-weight: bold;
+    color:black;
+    font-size: 1.2em;
+    line-height: 35px;
+}
+
+.description p {
+    color:black;
+    font-size: 1em;
+    line-height: 35px;
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 8em;
+        font-weight: bold;
+        color: #ffff;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px #000000;
+    }
+    
+    h2 {
+        font-size: 2em;
+        font-weight: bold;
+        color: rgb(255, 250, 250);
+        text-transform: uppercase;
+        padding: 30px 0 50px 0;
+    }
 }
