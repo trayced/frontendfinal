@@ -18,10 +18,10 @@
                 <nav class="mainmenu">
                     <ul>
                         <li class="menuitem">
-                            <a href="#" class="menuli">Sobre</a>
+                            <a href="#sobre" class="menuli">Sobre</a>
                         </li>
                         <li class="menuitem">
-                            <a href="#" class="menuli">Palestrantes</a>
+                            <a href="#palestrantes_about" class="menuli">Palestrantes</a>
                         </li> 
                     </ul>
                 </nav>
@@ -31,12 +31,12 @@
                         <h2>30 de Maio - Rio de Janeiro</h2>
                     </section>
                     <section>
-                        <a href="#" class="button">INSCREVA-SE</a>
+                        <a href="#seinscreve" class="button">INSCREVA-SE</a>
                     </section>
                 </div>
         </header>
         <main>
-            <section class="panel-about">
+            <section class="panel-about" id="sobre">
                 <div class="container">
                     <h2 class="titulo">Muito conteúdo: do FrontEnd ao BackEnd</h2>
                     <h3 class="subtitulo">30 de Maio - na Cidade Maravilhosa</h3>
@@ -46,13 +46,13 @@
                     </div>
                 </div>
             </section>
-            <section class="palestrantes">
+            <section class="palestrantes" id="palestrantes_about">
                 <h3 class="subtitulo_palestrantes">Palestrantes</h3>
                 <p class="descricao_palestrantes">Aprenda com palestrantes que são referência no mercado!</p>
                 <ul>
                     <li class="palestrantes_lista">
                         <figure class="palestrante_foto">
-                            <img src="img/palestrantes/placeholder.jpeg" alt="foto do palestrante">
+                            <img src="img/palestrantes/placeholder.jpeg" class="arredondainferno" alt="foto do palestrante">
                             <figcaption class="palestrante_nome">Flavio Almeida
                             </figcaption>
                             <p class="cargo">Desenvolvedor e instrutor - Alura/Caelum</p>
@@ -61,7 +61,16 @@
                     </li>
                     <li class="palestrantes_lista">
                         <figure class="palestrante_foto">
-                            <img src="img/palestrantes/placeholder.jpeg" alt="foto do palestrante">
+                            <img src="img/palestrantes/placeholder.jpeg" class="arredondainferno" alt="foto do palestrante">
+                            <figcaption class="palestrante_nome">Flavio Almeida
+                            </figcaption>
+                            <p class="cargo">Desenvolvedor e instrutor - Alura/Caelum</p>
+                        </figure>
+                        <p class="descrição">To be or not to be MEANTo be or not to be MEANTo be or not to be MEANTo be or not to be MEANTo be or not to be MEANTo be or not to be MEANTo be or not to be MEANTo be or not to be MEAN</p>
+                    </li>
+                    <li class="palestrantes_lista">
+                        <figure class="palestrante_foto">
+                            <img src="img/palestrantes/placeholder.jpeg" class="arredondainferno" alt="foto do palestrante">
                             <figcaption class="palestrante_nome">Flavio Almeida
                             </figcaption>
                             <p class="cargo">Desenvolvedor e instrutor - Alura/Caelum</p>
@@ -70,7 +79,7 @@
                     </li>
                     <li class="palestrantes_lista">
                         <figure class="palestrante_foto">
-                            <img src="img/palestrantes/placeholder.jpeg" alt="foto do palestrante">
+                            <img src="img/palestrantes/placeholder.jpeg" class="arredondainferno" alt="foto do palestrante">
                             <figcaption class="palestrante_nome">Flavio Almeida
                             </figcaption>
                             <p class="cargo">Desenvolvedor e instrutor - Alura/Caelum</p>
@@ -79,7 +88,7 @@
                     </li>
                     <li class="palestrantes_lista">
                         <figure class="palestrante_foto">
-                            <img src="img/palestrantes/placeholder.jpeg" alt="foto do palestrante">
+                            <img src="img/palestrantes/placeholder.jpeg" class="arredondainferno" alt="foto do palestrante">
                             <figcaption class="palestrante_nome">Flavio Almeida
                             </figcaption>
                             <p class="cargo">Desenvolvedor e instrutor - Alura/Caelum</p>
@@ -88,25 +97,7 @@
                     </li>
                     <li class="palestrantes_lista">
                         <figure class="palestrante_foto">
-                            <img src="img/palestrantes/placeholder.jpeg" alt="foto do palestrante">
-                            <figcaption class="palestrante_nome">Flavio Almeida
-                            </figcaption>
-                            <p class="cargo">Desenvolvedor e instrutor - Alura/Caelum</p>
-                        </figure>
-                        <p class="descrição">To be or not to be MEAN</p>
-                    </li>
-                    <li class="palestrantes_lista">
-                        <figure class="palestrante_foto">
-                            <img src="img/palestrantes/placeholder.jpeg" alt="foto do palestrante">
-                            <figcaption class="palestrante_nome">Flavio Almeida
-                            </figcaption>
-                            <p class="cargo">Desenvolvedor e instrutor - Alura/Caelum</p>
-                        </figure>
-                        <p class="descrição">To be or not to be MEAN</p>
-                    </li>
-                    <li class="palestrantes_lista">
-                        <figure class="palestrante_foto">
-                            <img src="img/palestrantes/placeholder.jpeg" alt="foto do palestrante">
+                            <img src="img/palestrantes/placeholder.jpeg" class="arredondainferno" alt="foto do palestrante">
                             <figcaption class="palestrante_nome">Flavio Almeida
                             </figcaption>
                             <p class="cargo">Desenvolvedor e instrutor - Alura/Caelum</p>
@@ -115,6 +106,21 @@
                     </li>
                 </ul>
             </section>
+            <section class="formulario" id="seinscreve">
+                <h2 class="formtitulo">Seus dados</h2>
+                <form class="contato">
+                    <label for="nomesobrenome">Seu Nome</label>
+                    <input type="text" id="nomesobrenome" class="inputpadrao" required>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" class="inputpadrao" required>
+
+                    <input type="submit" value="Realizar Inscrição" class="enviar">
+                </form>
+            </section>
+            <script src="js/jquery.js"></script>
+            <script src="js/index.js"></script>
+        
         </main>    
     </body>
 </html>
