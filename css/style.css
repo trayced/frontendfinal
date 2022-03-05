@@ -1,25 +1,48 @@
 body {
 	font-family: 'Montserrat', sans-serif;
-    background-image: url("../img/destaque.jpeg");
-    padding-top: 32px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #030101;
 }
 
-.header {
+/*.header {
     text-align: center;
     margin: 0 2px 32px 0;
+    background-image: url("../img/destaque.jpeg");
+    padding-top: 32px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #030101;
    /* display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;*/
+    align-items: center;
 }
 
-.mainmenu .menuitem {
+.header .mainmenu .menuitem {
     text-align: center;
     margin: 0 2px 32px 0;
+}*/
+
+.header {
+    background: url('../img/destaque.jpeg') no-repeat;
+    background-size: cover;
+    /*padding-top: 40px;
+    padding-bottom: 50px;*/
+    padding: 40px;
 }
+
+.header .mainmenu {
+    text-align: center;
+}
+
+.inscrevase {
+    text-align: center;
+}
+
+
+.header .mainmenu .menuitem {
+    display: inline-block;
+    margin: 0 2px 32px 0;
+}
+
 
 nav li {
     display: inline-block;
@@ -178,10 +201,12 @@ h2 {
 
 .inputpadrao {
 	display: block;
+    border: 1px solid;
+    border-color: #adadad;
     width: 80%;
     margin: 20px auto;
     padding: 10px;
-    box-shadow: 1px 1px 5px rgb(252, 60, 26);
+    box-shadow: 1px 1px 5px rgba(252, 60, 26, 0.411);
     border-radius: 10px;
     text-align: center;
 }
