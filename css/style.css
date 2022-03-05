@@ -2,30 +2,9 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-/*.header {
-    text-align: center;
-    margin: 0 2px 32px 0;
-    background-image: url("../img/destaque.jpeg");
-    padding-top: 32px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #030101;
-   /* display: inline-flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.header .mainmenu .menuitem {
-    text-align: center;
-    margin: 0 2px 32px 0;
-}*/
-
 .header {
     background: url('../img/destaque.jpeg') no-repeat;
     background-size: cover;
-    /*padding-top: 40px;
-    padding-bottom: 50px;*/
     padding: 40px;
 }
 
@@ -169,21 +148,6 @@ h2 {
     font-weight: bold;
     margin: 10px;
 }
-
-/*.palestrantes_lista {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: space-around;
-    gap: 10px;
-    background-color: white;
-	text-align: center;
-	vertical-align: top;
-	margin: 0 10px;
-	padding: 30px 20px;
-	box-sizing: border-box;
-	border-radius: 10px;
-}*/
 
 .formulario {
     background-color: #ffffff;
